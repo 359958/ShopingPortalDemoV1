@@ -58,7 +58,7 @@ namespace ShopingCart.Api
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
-            app.UseRouting();
+            app.UseRouting(); 
             
 
             app.UseAuthorization();
